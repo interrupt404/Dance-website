@@ -1,0 +1,55 @@
+// for first time use of git bash
+
+git config --global user.name Rajat 
+git config --global user.email "rajatraj2001@gmail.com"
+
+// to create new file use "touch"
+// creates file by name gitignore
+touch .gitignore
+// in gitignore we write the names of files and folders we don't
+// want git to push in repo
+
+
+// initializes the project and creates hidden folder ".git"
+git init
+
+// it sends all our data into staging area
+git add.
+
+// we create snapshot of our commit, if it's first commmit we name 
+// it "initial commit".
+git commit -m "initial commit"
+
+// it shows the status of git
+git status
+/*
+"On branch master
+nothing to commit, working tree clean"
+
+when this message appears, we're ready to commit
+*/
+
+// next copy ssh address from github 
+// links all files to this repo
+git remote add origin git@github.com:interrupt404/Dance-website.git
+
+// set ssh keys from github, so that no one can push without permission
+
+$ ssh-keygen -t ed25519 -C "rajatraj2001@gmail.com"
+
+// it pushes all the folders
+git push origin master
+
+/* to update the repo */
+
+// we created cheatsheet.txt
+
+// now run 
+
+git add .
+
+// then 
+git commit -m "add some message here"
+
+// then 
+git push origin master
