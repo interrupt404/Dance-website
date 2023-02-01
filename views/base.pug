@@ -1,0 +1,24 @@
+html
+  head
+    title Natrajan Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/img1.png", alt="")
+                |NDA
+            li #[a(href='/') Home]
+            li #[a(href='/') Services]
+            li #[a(href='/') Classes Info]
+            li #[a(href='/') About]
+            li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer
+        | Copyright © 2023 NatrajanDanceAcademy.com | All rights reserved.
+
+
+
+//- blocks for different things are defined
+//- each pug file for fills these blocks as per need

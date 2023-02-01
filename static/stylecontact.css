@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+/* nav bar */
+#navbar{
+    background-color:#670076;
+    align-items: center;
+    padding:10px 4px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+  list-style:none;
+}
+
+#navbar li a{  
+    padding: 13px 38px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+} 
+
+#navbar li a:hover{  
+    color:black;
+}
+
+/* form */
+h1{
+    text-align: center;
+    margin:16px 0px;
+}
+.container{
+    height:647px;
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    width: 54%;
+    height: 35px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 2px solid black;
+    color: white;
+    margin-top: 17px;
+    border-radius: 10px;
+    padding: 3px 63px;
+    font-size: 19px;
+    background-color: #d68ee1;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    height:20px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

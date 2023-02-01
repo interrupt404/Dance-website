@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Natrajan Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/img1.png", alt="")
+                |NDA
+            li #[a(href='/') Home]
+            li #[a(href='/') Services]
+            li #[a(href='/') Classes Info]
+            li #[a(href='/') About]
+            li #[a(href='/') Contact Us]
+    
+    section#IntroSection 
+        div Welcome to Natrajan Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#MissionSection 
+        h2 Our Mission
+        div.card
+            h4 Dance Perfection
+            .card-box
+                .card-img 
+                    img(src="/static/img/img2.jpg", alt="")
+                .card-content 
+                    p This is the best dance academy of the universe
+        div.card
+            h4 Dance the Way you like
+            .card-box
+                .card-img 
+                    img(src="/static/img/img3.png", alt="")
+                .card-content 
+                    p This is the best dance academy of the universe
+        div.card
+            h4 Best Teachers
+            .card-box
+                .card-img 
+                    img(src="/static/img/img4.png", alt="")
+                .card-content 
+                    p This is the best dance academy of the universe
+    section#SponsorsSection 
+        h2 Our Sponsors
+            #sponsors
+                img(src="/static/img/logo3.png", alt="sponsor image" class="spimage")
+                img(src="/static/img/logo2.png", alt="sponsor image" class="spimage")
+                img(src="/static/img/logo1.png", alt="sponsor image" class="spimage")
+                img(src="/static/img/logo5.png", alt="sponsor image" class="spimage")
+                img(src="/static/img/logo4.png", alt="sponsor image" class="spimage")
+    footer#footer 
+        | Copyright © 2023 NatrajanDanceAcademy.com | All rights reserved.
+    
+    script
+      include ../static/index.js
